@@ -26,7 +26,7 @@ class MainWindow(QMainWindow):
         try:
             icon_path = os.path.join(
                 os.path.dirname(os.path.dirname(__file__)),
-                '3d-cute-robot-working-touching-260nw-2698930129.jpg'
+                'robot.jpg'
             )
             if os.path.exists(icon_path):
                 self.setWindowIcon(QIcon(icon_path))
