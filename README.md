@@ -2,6 +2,17 @@
 
 A comprehensive ROS2 monitoring and management tool with GUI for performance monitoring, bag operations, and system diagnostics.
 
+## One-Line Installation
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Sourav0607/ROS2-STUDIO/main/install.sh | bash
+```
+
+Or specify a custom workspace:
+```bash
+curl -fsSL https://raw.githubusercontent.com/Sourav0607/ROS2-STUDIO/main/install.sh | bash -s /path/to/workspace
+```
+
 ## Features
 
 - 📊 **Performance Monitor** - Real-time CPU/memory monitoring for topics and nodes with graphical plots
@@ -10,7 +21,9 @@ A comprehensive ROS2 monitoring and management tool with GUI for performance mon
 - 🔄 **Bag to CSV Converter** - Full message deserialization to CSV format
 - 🎛️ **System Dashboard** - System resources, ROS2 entities, network stats, and process monitoring
 
-## Quick Start
+## Manual Installation
+
+### Quick Start
 
 ```bash
 # Install dependencies
