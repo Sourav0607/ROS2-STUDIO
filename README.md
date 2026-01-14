@@ -53,6 +53,28 @@ ros2_studio/
 - Python 3.8+
 - PyQt5, matplotlib, psutil, rosbag2_py
 
+## Screenshots
+
+### Performance Monitor
+![Performance Monitor](ros2_studio/performanc%20metrics.png)
+*Real-time CPU, memory, and frequency monitoring with graphical plots*
+
+### Bag Recorder
+![Bag Recorder](ros2_studio/bag%20recorder.png)
+*Multi-topic selection with recording controls*
+
+### Bag Player
+![Bag Player](ros2_studio/bag%20play.png)
+*Playback control with adjustable rate and loop options*
+
+### Bag to CSV Converter
+![CSV Converter](ros2_studio/convert%20to%20csv.png)
+*Convert bag topics to CSV with full message deserialization*
+
+### System Dashboard
+![System Dashboard](ros2_studio/systm%20dashboard.png)
+*System resources, ROS2 entities, network stats, and process monitoring*
+
 ## License
 
 Apache License 2.0
