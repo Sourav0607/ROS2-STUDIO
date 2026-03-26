@@ -3,35 +3,23 @@
 <package format="3">
   <name>ros2_studio</name>
   <version>0.1.0</version>
-  <description>
-    Comprehensive ROS2 monitoring and management tool with GUI.
-    Features include real-time performance monitoring for topics and nodes,
-    bag recording, bag playback, bag-to-CSV conversion, and a system dashboard.
-  </description>
+  <description>Comprehensive ROS2 monitoring and management tool with GUI for performance monitoring, bag recording, and bag playback</description>
+  <maintainer email="sourav.hawaldar@gmail.com">sourav</maintainer>
+  <license>Apache License 2.0</license>
 
-  <maintainer email="sourav.hawaldar@gmail.com">Sourav Hawaldar</maintainer>
-  <license>Apache-2.0</license>
-
-  <url type="website">https://github.com/Sourav0607/ROS2-STUDIO</url>
-  <url type="repository">https://github.com/Sourav0607/ROS2-STUDIO</url>
-  <url type="bugtracker">https://github.com/Sourav0607/ROS2-STUDIO/issues</url>
-
-  <!-- Build system -->
+  <!-- Build dependencies -->
   <buildtool_depend>ament_python</buildtool_depend>
 
-  <!-- Runtime: ROS2 core -->
-  <exec_depend>rclpy</exec_depend>
-  <exec_depend>ros2cli</exec_depend>
-  <exec_depend>ros2topic</exec_depend>
-  <exec_depend>ros2node</exec_depend>
-  <exec_depend>ros2bag</exec_depend>
-  <exec_depend>rosbag2_py</exec_depend>
-  <exec_depend>rosidl_runtime_py</exec_depend>
-
-  <!-- Runtime: Python system packages -->
-  <exec_depend>python3-pyqt5</exec_depend>
-  <exec_depend>python3-psutil</exec_depend>
-  <exec_depend>python3-matplotlib</exec_depend>
+  <!-- Runtime dependencies -->
+  <depend>rclpy</depend>
+  <depend>ros2cli</depend>
+  <depend>ros2topic</depend>
+  <depend>ros2node</depend>
+  <depend>ros2bag</depend>
+  <depend>rosbag2_py</depend>
+  <depend>python3-pyqt5</depend>
+  <depend>python3-psutil</depend>
+  <depend>python3-matplotlib</depend>
 
   <!-- Test dependencies -->
   <test_depend>ament_copyright</test_depend>
